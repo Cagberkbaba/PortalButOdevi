@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB01ModelStoreContainer" CdmEntityContainer="DB01Entities">
+    <EntitySetMapping Name="Grup">
+      <EntityTypeMapping TypeName="DB01Model.Grup">
+        <MappingFragment StoreEntitySet="Grup">
+          <ScalarProperty Name="grupId" ColumnName="grupId" />
+          <ScalarProperty Name="grupAd" ColumnName="grupAd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kullanici">
+      <EntityTypeMapping TypeName="DB01Model.Kullanici">
+        <MappingFragment StoreEntitySet="Kullanici">
+          <ScalarProperty Name="kullaniciId" ColumnName="kullaniciId" />
+          <ScalarProperty Name="kullanıcıAd" ColumnName="kullanıcıAd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Mesaj">
+      <EntityTypeMapping TypeName="DB01Model.Mesaj">
+        <MappingFragment StoreEntitySet="Mesaj">
+          <ScalarProperty Name="mesajId" ColumnName="mesajId" />
+          <ScalarProperty Name="mesajText" ColumnName="mesajText" />
+          <ScalarProperty Name="bulkMesaj" ColumnName="bulkMesaj" />
+          <ScalarProperty Name="grupId" ColumnName="grupId" />
+          <ScalarProperty Name="kimdenId" ColumnName="kimdenId" />
+          <ScalarProperty Name="kimeId" ColumnName="kimeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

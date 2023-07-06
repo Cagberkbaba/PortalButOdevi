@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="15fc67beaaf44bf9ab013d53988e94f8" Name="Diagram1" ZoomLevel="132">
+        <EntityTypeShape EntityType="DB01Model.Grup" Width="1.5" PointX="1.125" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB01Model.Kullanici" Width="1.5" PointX="2.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB01Model.Mesaj" Width="1.5" PointX="3.875" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="DB01Model.FK_Kullanici_ToGrup" ManuallyRouted="false" />
+        <AssociationConnector Association="DB01Model.FK_Kullanici_ToMesaj" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
